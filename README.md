@@ -5,17 +5,8 @@ With a keen interest in UI/UX design and typography, I am committed to crafting 
 
 ## Languages & software
 
-| ![HTML][html] | ![CSS][css] | ![C++][cpp] | ![Python][python] | ![Dart][dart] |
-|:-------------:|:-----------:|:-----------:|:-----------------:|:-------------:|
-| ![Flutter][flutter] | ![Java][java] | ![MongoDB][mongodb] | ![Unreal Engine][unreal] | ![Affinity Designer][afdesigner] |
-
-[html]: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg "HTML"
-[css]: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg "CSS"
-[cpp]: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg "C++"
-[python]: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg "Python"
-[dart]: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg "Dart"
-[flutter]: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg "Flutter"
-[java]: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg "Java"
-[mongodb]: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg "MongoDB"
-[unreal]: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unrealengine/unrealengine-original.svg "Unreal Engine"
-[afdesigner]: img/afdesigner.svg "Affinity Designer"
+|<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" width="150" height="150"/>| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" width="150" height="150"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" width="150" height="150"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="150" height="150"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" alt="Dart" width="150" height="150"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" width="150" height="150"/> |
+|:-------------:|:-----------:|:-----------:|:-----------------:|:-------------:|:-------------:|
+| HTML | CSS | C++ | Python | Dart | Flutter |
+|<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="150" height="150"/>| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="150" height="150"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unrealengine/unrealengine-original.svg" alt="Unreal Engine" width="150" height="150"/> | <img src="img/afdesigner.svg" alt="Affinity Designer" width="150" height="150"/> | <img src="img/glyphs.svg" alt="Glyphs" width="150" height="150"/> |
+| Java | MongoDB | Unreal Engine | Affinity Designer | Glyphs |
