@@ -18,7 +18,7 @@ nav {
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 18px 0 12px 0;
+    margin: 15px 0 9px 0;
     display: flex;
     justify-content: space-between; /* Center the list horizontally */
     align-items: center; /* Center vertically within the list */
@@ -33,7 +33,7 @@ nav li {
 
 .nav-text {
     text-decoration: none;
-    color: #EEEEEE; /* Change the text color to your preference */
+    color: #EBEBEB; /* Change the text color to your preference */
     font-family: Raleway;
     font-weight: 700;
     display: inline-block; /* Allows transform to be applied */
@@ -44,14 +44,22 @@ nav li {
 }
 
 .nav-text:hover {
-    color: #ccc; /* Change the text color to your preference */
-
+    color: #bebebe; /* Change the text color to your preference */
 }
 
 .rotenaple {
     margin: 0 auto; /* Center the image horizontally within the list item */
     width: 2rem;
     transform: none;
+    padding: 6px;
+    border-radius: 8px;
+    border: none;
+    background-color: #333;
+}
+
+.rotenaple:hover {
+    content: url('img/rotenaple.svg');
+    background-color: #EBEBEB;
 }
 
 body{
@@ -142,7 +150,7 @@ section{
 }
 
 section:nth-child(odd) {
-    background-color: #eee;
+    background-color: #EBEBEB;
 }
 
 section:last-child {
