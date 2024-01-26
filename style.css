@@ -6,7 +6,7 @@ header {
     background-color: #333; /* Change the background color to your preference */
     padding: 4px 0; /* Adjust the padding as needed */
     margin: 0;
-    z-index: 100; /* To ensure it's on top of other content */
+    z-index: 1; /* To ensure it's on top of other content */
 }
 
 nav {
@@ -33,7 +33,7 @@ nav li {
 
 .nav-text {
     text-decoration: none;
-    color: white; /* Change the text color to your preference */
+    color: #EEEEEE; /* Change the text color to your preference */
     font-family: Raleway;
     font-weight: 700;
     display: inline-block; /* Allows transform to be applied */
@@ -55,11 +55,12 @@ nav li {
 }
 
 body{
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'IBM Plex Mono', sans-serif;
     margin: 60px 0 0 0;
     font-size: 12pt;
-    font-weight: 400;
+    font-weight: 500;
     transition: padding 0.6s ease-in-out; /* Smooth transition for padding changes */
+    color: #333;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -67,8 +68,16 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
 }
 
+h2 {
+    margin: 24px 0 14px 0;
+}
+
+h3 {
+    margin: 22px 0 12px 0;
+}
+
 p {
-    text-align: justify;
+    margin: 12px 0 8px 0;
 }
 
 .languages {
@@ -81,7 +90,8 @@ p {
 .languages img, .languages svg{
     flex: 1 1 45%; /* Each item can grow and shrink but starts at 45% of the container width */
     max-width: 4.5rem; /* Adjust the icon size as needed */
-    margin-bottom: 1rem; /* Add some space between rows */
+    margin: 0.75rem 0; /* Add some space between rows */
+    aspect-ratio: 1/1;
 }
 
 #content {
@@ -90,6 +100,8 @@ p {
 
 section{
     padding: 12px 24px 28px 24px;
+    scroll-margin: 74px 0 0 0;
+    overflow-y: clip;
     transition: padding 0.6s ease-in-out; /* Smooth transition for padding changes */
 }
 
@@ -111,9 +123,4 @@ section:nth-child(odd) {
 
 section:last-child {
     padding-bottom:80px;
-}
-
-* {
-    scroll-padding-top: 60px;
-    overflow: scroll;
 }
