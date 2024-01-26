@@ -124,12 +124,11 @@ p {
 }
 
 .code {
-    font-size: 0.75rem;
-    padding: 6px;
-    border-radius: 12px;
+    padding: 12px;
+    border-radius: 16px;
     border: none;
     color: #EBEBEB;
-    background-color: #22324F;
+    background-color: #333;
 }
 
 .contact-info {
