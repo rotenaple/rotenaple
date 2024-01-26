@@ -73,12 +73,15 @@ p {
 
 .languages {
     display: flex;
-    justify-content: space-around; /* Distribute icons evenly */
+    justify-content: space-between; /* Distribute icons evenly */
     margin: 0 auto; /* Center the row horizontally */
+    flex-wrap: wrap; /* Enable wrapping of items */
 }
 
 .languages img {
-    max-width: 6rem; /* Adjust the icon size as needed */
+    flex: 1 1 45%; /* Each item can grow and shrink but starts at 45% of the container width */
+    max-width: 4.5rem; /* Adjust the icon size as needed */
+    margin-bottom: 1rem; /* Add some space between rows */
 }
 
 #content {
