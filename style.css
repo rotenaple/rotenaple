@@ -123,6 +123,14 @@ p {
     aspect-ratio: 1/1;
 }
 
+.code {
+    font-size: 0.75rem;
+    margin: 4px;
+    border-radius: 8px;
+    border: none;
+    background-color: #F9EFFA;
+}
+
 .contact-info {
     display: grid;
     grid-template-columns: 1fr; /* Single column for four rows */
