@@ -78,7 +78,7 @@ p {
     flex-wrap: wrap; /* Enable wrapping of items */
 }
 
-.languages img {
+.languages img, .languages svg{
     flex: 1 1 45%; /* Each item can grow and shrink but starts at 45% of the container width */
     max-width: 4.5rem; /* Adjust the icon size as needed */
     margin-bottom: 1rem; /* Add some space between rows */
