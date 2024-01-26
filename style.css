@@ -95,14 +95,6 @@ h3 {
     margin: 22px 0 12px 0;
 }
 
-h3 a {
-    color: #33569a;
-}
-
-h3 a:hover {
-    color: #183650;
-}
-
 p {
     margin: 12px 0 8px 0;
 }
@@ -132,14 +124,21 @@ p {
     align-items: start;
     text-decoration: none;
     gap: 0 10px; /* Adjust the gap between items as needed */
+    
 }
 
 .contact-info p {
     margin: 2px 0;
 }
 
-.contact-info p a {
+h3 a, h3 a:visited, .contact-info p a, .contact-info p a:visited {
+    color: #33569a;
     text-decoration: none;
+}
+
+h3 a:hover, .contact-info p a:hover {
+    color: #183650;
+    
 }
 
 
