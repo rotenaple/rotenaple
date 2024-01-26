@@ -3,15 +3,10 @@ Hello! I'm Edward (@rotenaple), an aspiring IT professional currently pursuing a
 
 With a keen interest in UI/UX design and typography, I am committed to crafting intuitive and aesthetically pleasing digital experiences. My experience extends beyond theoretical knowledge, as I actively engage in projects that demonstrate the transformative impact of technology in enhancing user interaction and interface efficiency.
 
-## Languages & software
-![HTML](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg)
-![CSS](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg)
-![C++](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg)
-![Python](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg)
-![Dart](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg)
-![Flutter](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg)
-![Java](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg)
-![MongoDB](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg)
-![Unreal Engine](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unrealengine/unrealengine-original.svg)
-![Affinity Designer](img/afdesigner.svg)
-![Glyphs](img/glyphs.svg)
+## Languages & Software
+|||||||
+|:-------------:|:-----------:|:-----------:|:-----------------:|:-------------:|:-------------:|
+|<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" width="80" height="80"/>| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" width="80" height="80"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" width="80" height="80"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="80" height="80"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" alt="Dart" width="80" height="80"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" width="80" height="80"/> |
+| HTML | CSS | C++ | Python | Dart | Flutter |
+|<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="80" height="80"/>| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="80" height="80"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unrealengine/unrealengine-original.svg" alt="Unreal Engine" width="80" height="80"/> | <img src="img/afdesigner.svg" alt="Affinity Designer" width="80" height="80"/> | <img src="img/glyphs.svg" alt="Glyphs" width="80" height="80"/> |
+| Java | MongoDB | Unreal Engine | Affinity Designer | Glyphs |
