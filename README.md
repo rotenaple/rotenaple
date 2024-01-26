@@ -3,7 +3,7 @@ Hello! I'm Edward (@rotenaple), an aspiring IT professional currently pursuing a
 
 With a keen interest in UI/UX design and typography, I am committed to crafting intuitive and aesthetically pleasing digital experiences. My experience extends beyond theoretical knowledge, as I actively engage in projects that demonstrate the transformative impact of technology in enhancing user interaction and interface efficiency.
 
-## Languages & software
+## Languages & Software
 
 |<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" width="80" height="80"/>| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" width="80" height="80"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" width="80" height="80"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="80" height="80"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" alt="Dart" width="80" height="80"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" width="80" height="80"/> |
 |:-------------:|:-----------:|:-----------:|:-----------------:|:-------------:|:-------------:|
