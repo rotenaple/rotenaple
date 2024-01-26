@@ -95,6 +95,14 @@ h3 {
     margin: 22px 0 12px 0;
 }
 
+h3 a {
+    color: #33569a;
+}
+
+h3 a:hover {
+    color: #183650;
+}
+
 p {
     margin: 12px 0 8px 0;
 }
