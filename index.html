@@ -1,20 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Markdown Viewer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Profile</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=IBM+Plex+Sans&display=swap" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+          
 </head>
 <body>
-    <div id="content"></div>
+    <div id="root">
+        <section id="aboutme">
+            <h2>About Me</h2>
+            <p>
+                Iusto dolorum dolorum eum exercitationem. Suscipit ipsum impedit adipisci in quos eius. Atque sunt nam molestias qui. Ullam voluptatem adipisci voluptatem aut non id. Modi perspiciatis est dolor dolor et id voluptatibus. Molestiae accusamus repudiandae at qui quasi nostrum error vel. Ut ducimus expedita est ea.
+            </p>
+        </section>
 
-    <script>
-        fetch('https://raw.githubusercontent.com/rotenaple/rotenaple/main/README.md')
-            .then(response => response.text())
-            .then(text => {
-                document.getElementById('content').innerHTML = marked.parse(text);
-            });
-    </script>
+        <section id="languages">
+            <h2>Languages</h2>
+
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" />
+
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"/>
+          
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" />
+          
+                  </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div id="project1">
+                <h3>Project 1</h3>
+                <p>
+                    Iusto dolorum dolorum eum exercitationem. Suscipit ipsum impedit adipisci in quos eius. Atque sunt nam molestias qui. Ullam voluptatem adipisci voluptatem aut non id. Modi perspiciatis est dolor dolor et id voluptatibus. Molestiae accusamus repudiandae at qui quasi nostrum error vel. Ut ducimus expedita est ea.
+                </p>
+            </div>
+            
+            <div id="project2">
+                <h3>Project 2</h3>
+                <p>
+                    Iusto dolorum dolorum eum exercitationem. Suscipit ipsum impedit adipisci in quos eius. Atque sunt nam molestias qui. Ullam voluptatem adipisci voluptatem aut non id. Modi perspiciatis est dolor dolor et id voluptatibus. Molestiae accusamus repudiandae at qui quasi nostrum error vel. Ut ducimus expedita est ea.
+                </p>
+            </div>
+            
+            <div id="project3">
+                <h3>Project 3</h3>
+                <p>
+                    Iusto dolorum dolorum eum exercitationem. Suscipit ipsum impedit adipisci in quos eius. Atque sunt nam molestias qui. Ullam voluptatem adipisci voluptatem aut non id. Modi perspiciatis est dolor dolor et id voluptatibus. Molestiae accusamus repudiandae at qui quasi nostrum error vel. Ut ducimus expedita est ea.
+                </p>
+            </div>
+        </section>
+    </div>
 </body>
 </html>
