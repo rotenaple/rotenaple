@@ -47,6 +47,15 @@ nav li {
     color: #bebebe; /* Change the text color to your preference */
 }
 
+nav li a ion-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.nav-label {
+    display: none; /* Hide text labels by default */
+}
+
 .rotenaple {
     margin: 0 auto; /* Center the image horizontally within the list item */
     width: 2rem;
@@ -135,6 +144,16 @@ section{
     scroll-margin: 74px 0 0 0;
     overflow-y: clip;
     transition: padding 0.6s ease-in-out; /* Smooth transition for padding changes */
+}
+
+@media (min-width: 480px) { /* Adjust the min-width as needed */
+    nav li a ion-icon {
+        display: none; /* Hide icons on wider screens */
+    }
+    .nav-label {
+        display: inline; /* Show text labels on wider screens */
+    }
+
 }
 
 @media (min-width: 960px) { /* Adjust the min-width as needed */
