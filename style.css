@@ -50,10 +50,12 @@ nav li {
 nav li a ion-icon {
     width: 24px;
     height: 24px;
+    visibility: visible;
 }
 
 .nav-label {
-    display: none; /* Hide text labels by default */
+    display: none; 
+    visibility: hidden;;/* Hide text labels by default */
 }
 
 .rotenaple {
@@ -148,10 +150,12 @@ section{
 
 @media (min-width: 480px) { /* Adjust the min-width as needed */
     nav li a ion-icon {
-        display: none; /* Hide icons on wider screens */
+        display: none; 
+        visibility: hidden;/* Hide icons on wider screens */
     }
     .nav-label {
-        display: inline; /* Show text labels on wider screens */
+        display: inline; 
+        visibility: visible;/* Show text labels on wider screens */
     }
 
 }
