@@ -1,12 +1,116 @@
-body {
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Change the background color to your preference */
+    padding: 4px 0; /* Adjust the padding as needed */
+    margin: 0;
+    z-index: 100; /* To ensure it's on top of other content */
+}
+
+nav {
+    padding: 0 24px;
+    margin: 0 auto; /* Center the nav */
+    transition: padding 0.6s ease-in-out; /* Smooth transition for padding changes */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 18px 0 12px 0;
+    display: flex;
+    justify-content: space-between; /* Center the list horizontally */
+    align-items: center; /* Center vertically within the list */
+    align-self: center;
+
+}
+
+nav li {
+    margin: 0; /* Adjust the spacing between menu items */
+    text-align: center; /* Center the text within each list item */
+}
+
+.nav-text {
+    text-decoration: none;
+    color: white; /* Change the text color to your preference */
+    font-family: Raleway;
+    font-weight: 700;
+    display: inline-block; /* Allows transform to be applied */
+    transform: translateY(-1pt); /* Adjust value as needed for optical alignment */
+    text-transform: uppercase;
+    letter-spacing: 0.66pt;
+    line-height: 1;
+}
+
+.nav-text:hover {
+    color: #ccc; /* Change the text color to your preference */
+
+}
+
+.rotenaple {
+    margin: 0 auto; /* Center the image horizontally within the list item */
+    width: 2rem;
+    transform: none;
+}
+
+body{
     font-family: 'IBM Plex Sans', sans-serif;
+    margin: 60px 0 0 0;
+    font-size: 12pt;
+    font-weight: 400;
+    transition: padding 0.6s ease-in-out; /* Smooth transition for padding changes */
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+p {
+    text-align: justify;
+}
+
+.languages {
+    display: flex;
+    justify-content: space-around; /* Distribute icons evenly */
+    margin: 0 auto; /* Center the row horizontally */
+}
+
+.languages img {
+    max-width: 6rem; /* Adjust the icon size as needed */
 }
 
 #content {
     line-height: 1.6;
-    padding: 20px;
+}
+
+section{
+    padding: 12px 24px 28px 24px;
+    transition: padding 0.6s ease-in-out; /* Smooth transition for padding changes */
+}
+
+@media (min-width: 768px) { /* Adjust the min-width as needed */
+    section {
+        padding: 12px 20% 28px; /* Increased horizontal padding for larger screens */
+    }
+    nav {
+        padding: 0 20%;
+    }
+    body{
+        font-size: 14pt;
+    }
+}
+
+section:nth-child(odd) {
+    background-color: #eee;
+}
+
+section:last-child {
+    padding-bottom:80px;
+}
+
+* {
+    scroll-padding-top: 60px;
+    overflow: scroll;
 }
