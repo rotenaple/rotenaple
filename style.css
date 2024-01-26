@@ -69,7 +69,7 @@ nav li a ion-icon {
 }
 
 .rotenaple:hover {
-    content: url('img/rotenaple.svg');
+    content: url('https://rotenaple.com/img/rotenaple.svg');
     background-color: #EBEBEB;
 }
 
