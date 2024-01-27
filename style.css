@@ -145,12 +145,12 @@ p {
     margin: 2px 0;
 }
 
-h3 a, h3 a:visited, .contact-info p a, .contact-info p a:visited {
+a, a:visited {
     color: #33569a;
     text-decoration: none;
 }
 
-h3 a:hover, .contact-info p a:hover {
+a:hover {
     color: #183650;
     
 }
