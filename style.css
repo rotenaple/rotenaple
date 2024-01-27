@@ -31,9 +31,9 @@ nav li {
     text-align: center; /* Center the text within each list item */
 }
 
-.nav-text {
+li .nav-text {
     text-decoration: none;
-    color: #EBEBEB; /* Change the text color to your preference */
+    color: #EBEBEB;
     font-family: Raleway;
     font-weight: 700;
     display: inline-block; /* Allows transform to be applied */
@@ -43,7 +43,7 @@ nav li {
     line-height: 1;
 }
 
-.nav-text:hover {
+li .nav-text:hover {
     color: #bebebe; /* Change the text color to your preference */
 }
 
