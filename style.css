@@ -31,7 +31,7 @@ nav li {
     text-align: center; /* Center the text within each list item */
 }
 
-li .nav-text {
+li .nav-text, li .nav-text:visited {
     text-decoration: none;
     color: #EBEBEB;
     font-family: Raleway;
@@ -43,7 +43,7 @@ li .nav-text {
     line-height: 1;
 }
 
-li .nav-text:hover {
+li .nav-text:hover, li .nav-text:active {
     color: #bebebe; /* Change the text color to your preference */
 }
 
