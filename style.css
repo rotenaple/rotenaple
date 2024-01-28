@@ -109,6 +109,12 @@ p {
     padding-bottom: 10.5%;
 }
 
+.profile-img {
+    visibility: collapse;
+    height: 0;
+    width: 0;
+}
+
 .languages {
     display: flex;
     justify-content: space-between; /* Distribute icons evenly */
