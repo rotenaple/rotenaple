@@ -214,6 +214,10 @@ section:nth-child(odd) {
     background-color: #EBEBEB;
 }
 
+section:nth-child(even){
+    background-color: #ffffff;
+}
+
 section:last-child {
     padding-bottom:120px;
 }
